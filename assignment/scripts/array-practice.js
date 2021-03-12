@@ -5,14 +5,14 @@ console.log('--- 1. Practice creating arrays ---');
 
 // Example: Array of animals
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
-console.log('Animals are: ', animalArray);
+console.log('Animals are:', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
 let foodArray = ['pizza', 'tacos', 'fried chicken', 'BBQ', 'lasagna'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar
 //      to the example above
-console.log('Favorite foods are: ', foodArray);
+console.log('Favorite foods are:', foodArray);
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
@@ -45,11 +45,11 @@ console.log('--- 4. Adding and removing array items ---');
 
 // Example: Add an animal to the end using Array.push
 animalArray.push('penguin');
-console.log('Added an animal to end,', animalArray);
+console.log('Added an animal to end', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 foodArray.push('fish');
-console.log('Added a new food to end,', foodArray);
+console.log('Added a new food to end', foodArray);
 
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
@@ -65,11 +65,11 @@ console.log('The foods are now', foodArray);
 
 // Example: Add an animal to the beginning using Array.unshift
 animalArray.unshift('walrus');
-console.log(`Added an animal to beginning: ${animalArray}`);
+console.log('Added an animal to beginning: ${animalArray}');
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 foodArray.unshift('ham');
-console.log(`Added a food to beginning: ${foodArray}`);
+console.log('Added a food to beginning: ${foodArray}');
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
